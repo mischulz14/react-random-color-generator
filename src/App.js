@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import './App.css';
 import { contrastColor } from 'contrast-color';
 import randomColor from 'randomcolor';
@@ -89,24 +90,21 @@ function App() {
   }
 
   return (
-    <>
     <GlobalContainer className="App">
-
+      <Container>
         <Heading>Generate Random Colors</Heading>
-        <label htmlFor="lum" /></label>
         <Input
           placeholder="set luminosity"
           id="lum"
           value={luminosity}
           onChange={(e) => handleHLuminosityChange(e)}
-        ></Input>
-        <label htmlFor="hue"></label>
+        />
         <Input
           placeholder="set hue"
           id="hue"
           value={hue}
           onChange={(e) => handleHueChange(e)}
-        ></Input>
+        />
         <Button onClick={handleGenerateColor} className="generate">
           Generate
         </Button>
@@ -119,8 +117,8 @@ function App() {
         >
           Generated Color: {color}
         </Generated>
+      </Container>
     </GlobalContainer>
-
   );
 }
 
