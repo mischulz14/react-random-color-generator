@@ -76,7 +76,6 @@ function App() {
     const newLum = event.currentTarget.value;
     setLuminosity(newLum);
     console.log(newLum);
-    console.log(typeof newLum);
   }
 
   function handleGenerateColor() {
