@@ -89,10 +89,11 @@ function App() {
   }
 
   return (
+    <>
     <GlobalContainer className="App">
-      <Container>
+
         <Heading>Generate Random Colors</Heading>
-        <label htmlFor="lum"></label>
+        <label htmlFor="lum" /></label>
         <Input
           placeholder="set luminosity"
           id="lum"
@@ -118,8 +119,8 @@ function App() {
         >
           Generated Color: {color}
         </Generated>
-      </Container>
     </GlobalContainer>
+
   );
 }
 
