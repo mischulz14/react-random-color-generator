@@ -2,7 +2,6 @@ import './App.css';
 import { contrastColor } from 'contrast-color';
 import randomColor from 'randomcolor';
 import { useState } from 'react';
-import styled from 'styled-components';
 
 function App() {
   const [color, setColor] = useState('none');
