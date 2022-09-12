@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/naming-convention */
 import './App.css';
 import { contrastColor } from 'contrast-color';
 import randomColor from 'randomcolor';
