@@ -1,3 +1,7 @@
+### REACT RANDOM COLOR GENERATOR
+
+This color generator lets you put in a hue color and luminosity and generates a random hex color for you!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
